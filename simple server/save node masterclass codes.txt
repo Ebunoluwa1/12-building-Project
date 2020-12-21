@@ -1,0 +1,24 @@
+
+EBUNOLUWA PC@DESKTOP-2651I19 MINGW32 ~/Desktop/nodejsMasterClass
+$ mkdir ~/library
+
+EBUNOLUWA PC@DESKTOP-2651I19 MINGW32 ~/Desktop/nodejsMasterClass
+$ touch index.js
+
+EBUNOLUWA PC@DESKTOP-2651I19 MINGW32 ~/Desktop/nodejsMasterClass
+$ node index.js
+Hello World
+
+EBUNOLUWA PC@DESKTOP-2651I19 MINGW32 ~/Desktop/nodejsMasterClass
+$ ls -a -l
+total 5
+drwxr-xr-x 1 EBUNOLUWA PC 197121  0 Sep 30 07:00 ./
+drwxr-xr-x 1 EBUNOLUWA PC 197121  0 Sep 28 19:13 ../
+-rw-r--r-- 1 EBUNOLUWA PC 197121 27 Sep 30 07:04 index.js
+
+EBUNOLUWA PC@DESKTOP-2651I19 MINGW32 ~/Desktop/nodejsMasterClass
+$ node index.js
+Hello World
+//note
+to configure a server we need to create a server object.
+//query parameters is ?,fizz-buzz

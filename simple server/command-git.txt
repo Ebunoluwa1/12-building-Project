@@ -1,0 +1,44 @@
+
+EBUNOLUWA PC@DESKTOP-2651I19 MINGW32 ~/Desktop/project-12 BP
+$ npm init
+This utility will walk you through creating a package.json f
+It only covers the most common items, and tries to guess sen
+
+See `npm help init` for definitive documentation on these fi
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (simple-server)
+version: (1.0.0)
+description: very simple server
+entry point: (index.js) server.js
+test command:
+git repository:
+keywords:
+author: Oni Ebunoluwa Mercy
+license: (ISC)
+About to write to C:\Users\EBUNOLUWA PC\Desktop\project-12 Bpackage.json:
+
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "very simple server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oni Ebunoluwa Mercy",
+  "license": "ISC"
+}
+
+//json file
+Is this OK? (yes)
+
+EBUNOLUWA PC@DESKTOP-2651I19 MINGW32 ~/Desktop/project-12 BP
+$ node server.js
+Server running at http://127.0.0.1:3000/
+
+//we can also use npm start or node server

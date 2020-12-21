@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    title Jumbotron Template · Bootstrap
+    // Bootstrap core CSS
+    link(href='/stylesheets/bootstrap.css' rel='stylesheet')
+  body
+    nav.navbar.navbar-expand-md.navbar-dark.bg-dark
+      a.navbar-brand(href='#') TOY Media
+      button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarsExampleDefault' aria-controls='navbarsExampleDefault' aria-expanded='false' aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExampleDefault.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item.active
+            a.nav-link(href='/')
+              | Home 
+          li.nav-item
+            a.nav-link(href='/About') About
+          li.nav-item
+            a.nav-link(href='/Contacts') Contacts
+          li.nav-item.dropdown
+            a#dropdown01.nav-link.dropdown-toggle(href='/Dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false') Dropdown
+            .dropdown-menu(aria-labelledby='dropdown01')
+              a.dropdown-item(href='#') Apply as a Member
+              a.dropdown-item(href='#') registration
+              a.dropdown-item(href='#')
+        form.form-inline.my-2.my-lg-0
+          input.form-control.mr-sm-2(type='text' placeholder='Search' aria-label='Search')
+          button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
+    main(role='main')
+    .container
+     block content
+    hr
+    footer.container
+     p(class='text-center') © Company 2019-2020
